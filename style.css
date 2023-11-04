@@ -1121,15 +1121,19 @@ a {
 .hero-form-frame{
     width:415px;
     height:510px;
-     box-shadow: 0px 13px 40px lightcoral;
+     box-shadow: 0px 13px 40px lightskyblue;
   
 }
 /* .pading{
     transition: width 2s linear;
 } */
 .pading:hover{
-   transform: scale(1,1.20); 
-}
+    transform: scale(1,1.05); 
+ }
+ .pading{
+     box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+ 
+ }
 @media screen and (max-width:480px){
     .announcement{
         display:none;
